@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Level Access Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">DevIntern.</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Structural Presentation Context Frame -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm a <span class="highlight">Full-Stack Engineer</span></h1>
+            <p>Building high-performance, maintainable web architectures from scratch.</p>
+            <a href="#projects" class="cta-btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I build clean, accessible user interfaces and high-performance server architectures. Focused on transforming complex operational constraints into accessible products.</p>
+        <div class="skills-tags">
+            <span class="tag">HTML5 / CSS3</span>
+            <span class="tag">JavaScript (ES6+)</span>
+            <span class="tag">Git & GitHub</span>
+            <span class="tag">REST APIs</span>
+        </div>
+    </section>
+
+    <!-- Project Showcase Presentation Block -->
+    <section id="projects" class="projects-section">
+        <h2>Selected Projects</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <h3>Weather Forecast Engine</h3>
+                <p>Asynchronous data engine compiling global real-time atmospheric metrics cleanly.</p>
+            </div>
+            <div class="portfolio-card">
+                <h3>Crypto Asset Monitor</h3>
+                <p>Asynchronous blockchain tracking solution processing clean layout modifications mapping asset valuations.</p>
+            </div>
+            <div class="portfolio-card">
+                <h3>Finance Ledger Framework</h3>
+                <p>Localized storage framework enabling tracking of transactional allocations dynamically.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Verification Form Intercept -->
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Message successfully transmitted!');">
+            <input type="text" placeholder="Your Full Name" required>
+            <input type="email" placeholder="Your Email Address" required>
+            <textarea rows="5" placeholder="Project details and operational scope..." required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Developer Portfolio. Built for Web Development Internship.</p>
+    </footer>
+</body>
+</html>
